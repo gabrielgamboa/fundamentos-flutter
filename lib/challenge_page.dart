@@ -34,7 +34,7 @@ class ChallengePage extends StatelessWidget {
                 height: 30,
               ),
               ClipRRect(
-                borderRadius: BorderRadius.circular(80),
+                borderRadius: BorderRadius.circular(60),
                 // ignore: deprecated_member_use
                 child: RaisedButton(
                   color: Colors.white,
