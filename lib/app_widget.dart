@@ -3,6 +3,7 @@ import 'package:hello_world/login_page.dart';
 
 import 'app_controller.dart';
 import 'home_page.dart';
+import 'challenge_page.dart';
 
 class AppWidget extends StatelessWidget {
   @override
@@ -16,10 +17,11 @@ class AppWidget extends StatelessWidget {
                 brightness: AppController.instance.isDarkTheme
                     ? Brightness.dark
                     : Brightness.light),
-            initialRoute: '/home',
+            initialRoute: '/',
             routes: {
               '/': (context) => LoginPage(),
               '/home': (context) => HomePage(),
+              '/challenge': (context) => ChallengePage(),
             } // Widget Stateful
             );
       },
