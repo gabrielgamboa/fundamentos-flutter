@@ -12,6 +12,7 @@ class AppWidget extends StatelessWidget {
       animation: AppController.instance,
       builder: (BuildContext context, Widget child) {
         return MaterialApp(
+            debugShowCheckedModeBanner: false,
             theme: ThemeData(
                 primarySwatch: Colors.deepPurple,
                 brightness: AppController.instance.isDarkTheme
